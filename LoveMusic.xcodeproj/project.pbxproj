@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0B2B8E2344A6E2009504D2 /* AlartSetPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0B2B8D2344A6E2009504D2 /* AlartSetPage.swift */; };
+		0D0B2B902344A96F009504D2 /* SettingAlarmPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0B2B8F2344A96F009504D2 /* SettingAlarmPage.swift */; };
 		0D48A20E232F278D009E059F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D48A20D232F278D009E059F /* AppDelegate.swift */; };
 		0D48A210232F278D009E059F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D48A20F232F278D009E059F /* ViewController.swift */; };
 		0D48A213232F278D009E059F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D48A211232F278D009E059F /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		0D48A21B232F278D009E059F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D48A219232F278D009E059F /* LaunchScreen.storyboard */; };
 		0D48A226232F278E009E059F /* LoveMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D48A225232F278E009E059F /* LoveMusicTests.swift */; };
 		0D48A231232F278E009E059F /* LoveMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D48A230232F278E009E059F /* LoveMusicUITests.swift */; };
+		0D713BB4235311B70011BD49 /* ViewController_timeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D713BB3235311B70011BD49 /* ViewController_timeer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D0B2B8D2344A6E2009504D2 /* AlartSetPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlartSetPage.swift; sourceTree = "<group>"; };
+		0D0B2B8F2344A96F009504D2 /* SettingAlarmPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingAlarmPage.swift; sourceTree = "<group>"; };
 		0D48A20A232F278D009E059F /* LoveMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D48A20D232F278D009E059F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D48A20F232F278D009E059F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		0D48A22C232F278E009E059F /* LoveMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D48A230232F278E009E059F /* LoveMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveMusicUITests.swift; sourceTree = "<group>"; };
 		0D48A232232F278E009E059F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D713BB3235311B70011BD49 /* ViewController_timeer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_timeer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				0D48A20D232F278D009E059F /* AppDelegate.swift */,
 				0D48A20F232F278D009E059F /* ViewController.swift */,
+				0D0B2B8D2344A6E2009504D2 /* AlartSetPage.swift */,
+				0D0B2B8F2344A96F009504D2 /* SettingAlarmPage.swift */,
 				0D48A211232F278D009E059F /* Main.storyboard */,
+				0D713BB3235311B70011BD49 /* ViewController_timeer.swift */,
 				0D48A217232F278D009E059F /* Assets.xcassets */,
 				0D48A219232F278D009E059F /* LaunchScreen.storyboard */,
 				0D48A21C232F278E009E059F /* Info.plist */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0B2B8E2344A6E2009504D2 /* AlartSetPage.swift in Sources */,
 				0D48A210232F278D009E059F /* ViewController.swift in Sources */,
+				0D0B2B902344A96F009504D2 /* SettingAlarmPage.swift in Sources */,
 				0D48A216232F278D009E059F /* LoveMusic.xcdatamodeld in Sources */,
+				0D713BB4235311B70011BD49 /* ViewController_timeer.swift in Sources */,
 				0D48A20E232F278D009E059F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
